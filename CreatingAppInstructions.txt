@@ -1,0 +1,15 @@
+1. Open VS Code in the App folder
+2. Open terminal:
+    * npm create vite .
+    * select >> React
+    * select >> JavaScript
+    * start app with:
+        - npm install
+        - npm run dev
+3. Browse app from http://localhost:5173
+4. Modify the App.jsx file, delete the vite and react components
+5. Create folder for the HTML components:
+    * Name each component (eg. Header.jsx, Footer.jsx...)
+    * export default function Name() {return (<></>)} for each component
+    * import {component} from './components...' in App.jsx file
+    
